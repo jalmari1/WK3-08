@@ -1,0 +1,205 @@
+.header{
+    height: 50px;
+    width: 100%;
+    margin: 0.5%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    height: 100%;
+    margin: 0.5%;
+}
+
+
+.header-list{
+    display: flex;
+    margin: auto;
+    margin-bottom: 0px;
+    list-style: none;
+    justify-content: space-evenly;
+    column-gap: 1em;
+    text-align: center;
+}
+
+.item-display{
+    height: 10%;
+    background-color: #A6A6A6;
+    margin: 1%;
+    border: 1%;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    column-gap: 2%;
+}
+
+.item-display-name{
+    text-align: center;
+    align-self: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    color: white;
+    margin: 2%;
+}
+
+#item-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-style: normal;
+    color: black;
+}
+
+.item-details-link{
+    padding: 1%;
+    background-color: black;
+    color: #D9D9D9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 0.6em;
+    border: 1px solid black;
+    border-radius: 35px;
+}
+
+a:link,a:visited,a:hover,a:active{
+    color: white;
+    text-decoration: none;
+}
+
+.item-display-picture{
+    margin: 2%;
+    display: grid;
+    place-items: center;
+}
+
+.item-display-picture img{
+    width: 80%;
+    height: auto;
+}
+
+.images{
+    margin: 1%;
+    border: 1%;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 5%;
+    justify-content: right;
+}
+
+.image-display-description{
+    margin: 1%;
+    display: grid;
+    place-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+
+.image-display{
+    margin: 1%;
+    display: grid;
+    place-items: center;
+}
+
+.image-display img{
+    margin: 3%;
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.footer{
+    font: 1em sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    align-self: center;
+    justify-content: center;
+}
+
+.shoe-image{
+    display: grid;
+    place-items: center;
+    
+}
+
+.shoe-image img{
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    justify-content: right;
+}
+
+.back {
+    width: 78%;
+    padding: 1%;
+    background-color: black;
+    color: #D9D9D9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 0.8em;
+    border: 1px solid black;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.shoe-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.shoe-description img{
+    width: 50%;
+    height: auto;
+  }
+table{
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th,td{
+    border-bottom: 1px solid #ddd;
+    
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.store-locator{
+    width: 78%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 0.8em;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.stores{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 70%;
+    align-self: center;
+    place-items: center;
+    justify-content: center;
+}
+.stores img{
+    width: 100%;
+    height: auto;
+}
+
